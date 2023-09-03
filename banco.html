@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proa bank</title>
+    <link rel="stylesheet" href="banco.css">
+    <link rel="shortcut icon" href="assets/proa.png " type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="assets/proa.png" alt="">
+            <h3 id="bemVindo"></h3>
+        </header>
+        <div class="form">
+            <h1>Proa bank</h1>
+            <div class="tela">
+                 <h4> 
+                   Saldo R$: <span id="saldo"></span>
+                 </h4>
+            </div>
+            <input type="text" name="" id="valor" placeholder="Digite o valor">
+            <button onclick="depositar()">Depositar</button>
+            <button onclick="transferir()">Tranferir</button>
+            <button onclick="sacar()">Sacar</button>
+            <button onclick="extrato()">Extrato</button>
+            <button onclick="sair()">Sair</button>
+    </div>
+  
+    <script src="script.js"></script>
+</body>
+</html>
